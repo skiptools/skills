@@ -4,6 +4,7 @@ Build cross-platform iOS and Android apps with [Skip](https://skip.dev) using Sw
 
 ## Skills
 
+- **skip-project-creation** — Create new Skip apps and libraries with `skip init`, add optional framework dependencies with Package.swift entries and starter template code
 - **building-skip-ui** — SwiftUI component support on Android via SkipUI, Compose customization, cross-platform view patterns, navigation, state management
 - **skip-lite-transpilation** — Critical rules for Skip Lite (transpiled) mode: integer overflow, type comparison errors, unsupported patterns, Kotlin interop
 - **skip-frameworks** — Integrating optional Skip frameworks: Firebase, SQL, Keychain, WebView, AV, Device sensors, Lottie, FFI, and more
