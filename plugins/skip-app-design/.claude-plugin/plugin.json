@@ -1,0 +1,9 @@
+{
+  "name": "skip-app-design",
+  "version": "1.0.0",
+  "description": "Build cross-platform iOS and Android apps with Skip using SwiftUI, optional frameworks, and Skip Lite transpilation",
+  "author": {
+    "name": "Skip",
+    "email": "support@skip.dev"
+  }
+}

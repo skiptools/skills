@@ -1,0 +1,9 @@
+{
+  "name": "skip-testing-deployment",
+  "version": "1.0.0",
+  "description": "Test, export, sign, and distribute Skip apps for the App Store and Google Play",
+  "author": {
+    "name": "Skip",
+    "email": "support@skip.dev"
+  }
+}
