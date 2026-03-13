@@ -1,0 +1,22 @@
+{
+  "name": "skiptools-skills",
+  "owner": {
+    "name": "Skip",
+    "email": "support@skip.dev"
+  },
+  "metadata": {
+    "description": "Official AI agent skills for building cross-platform iOS and Android apps with Skip"
+  },
+  "plugins": [
+    {
+      "name": "skip-app-design",
+      "source": "./plugins/skip-app-design",
+      "description": "Build cross-platform iOS and Android apps with Skip using SwiftUI, optional frameworks, and Skip Lite transpilation."
+    },
+    {
+      "name": "skip-testing-deployment",
+      "source": "./plugins/skip-testing-deployment",
+      "description": "Test, export, sign, and distribute Skip apps for the App Store and Google Play."
+    }
+  ]
+}
