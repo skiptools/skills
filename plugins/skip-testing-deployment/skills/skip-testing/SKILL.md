@@ -71,8 +71,9 @@ import Testing
 @Test func standalone() { #expect(true) }
 ```
 
-**Supported**: `@Test`, `@Suite`, `#expect` (==, !=, >, <, >=, <=, bool), `#require`.
-**Not supported**: Parameterised tests, traits, tags.
+**Supported**: `@Test`, `@Suite`, `#expect` (==, !=, >, <, >=, <=, bool), `#require`, and `@Test(arguments:)` with single collections, tuples, or two collections for all combinations, including async tests.
+
+**Not supported**: Traits, tags, generic/variadic/`inout` test parameters, and arguments depending on instance state. For stateful suites, prefer classes to avoid additional struct constructors that JUnit rejects.
 
 ## Running Tests
 
